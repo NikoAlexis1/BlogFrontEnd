@@ -1,0 +1,39 @@
+// Botones de registro, crear cuenta y iniciar sesion
+.btn{
+    &-register{
+        @include boton;
+        background-color: #67C770;
+        padding: 0.5rem 1.5rem;
+        color: #fff;
+        margin: 3px 5px;
+    }
+
+    &-create-account{
+        @include boton;
+        background-color: #67C770;
+        display: block;
+        width: 100%;
+        padding: 5px;
+        color: #fff;
+        
+    }
+
+    &-image{
+        width: 30px;
+        vertical-align: middle;
+    }
+
+    &-google-register{
+        @include boton;
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        padding-right: 5px;
+        border: 1px solid gray;
+        font-weight: 700;
+    }
+
+    &-register:hover, &-create-account:hover{
+        background-color: green;
+    }
+}

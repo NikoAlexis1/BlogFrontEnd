@@ -1,0 +1,23 @@
+// Seccion registro y seccion login
+.register-section, .login-section{
+    padding: 40px; 
+    text-align: center;
+    max-width: 600px; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+// Inputs formulario
+.register__input, .login__input{
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+// checkbox recordarme y olvidar contraseña
+.recordarme{
+    display: flex;
+    justify-content: space-between;
+}

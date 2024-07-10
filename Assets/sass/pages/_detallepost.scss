@@ -1,0 +1,27 @@
+// main de pagina detalles
+.main{
+    width: 90%;
+    margin: auto;
+}
+
+// Detalles del post
+.nov__detalle-post{
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+// imagen del post
+.nov__detalle-image{
+    width: 50%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+// Seccion de relacionados
+.relacionados{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}

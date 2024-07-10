@@ -1,0 +1,35 @@
+// Seccion Cards Secundarios
+.nov_card-secondary{
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+
+.nov__card-image-secondary{
+    display: inline-block;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.card__body-secondary{
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+}
+
+.nov__card-subtitle-secondary,
+.nov__card-title-secondary{
+    margin: auto;
+}
+
+.nov__card-imagefooter-secondary{
+    width: 25px;
+    vertical-align: middle;
+    border-radius: 25px;
+    padding: 5px;
+}
+.nov__card-subtitle-secondary,
+.nov__card-title-secondary,
+.nov__card-footertext-secondary{
+    font-size: 15px;
+}

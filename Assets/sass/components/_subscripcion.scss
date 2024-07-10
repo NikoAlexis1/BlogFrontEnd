@@ -1,0 +1,37 @@
+// Seccion Componente de Subscripcion
+.box__sub{
+    background-color: #67C770;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.box__title{
+    padding: 0 40px;
+    margin: 0;
+}
+
+.box__input{
+    margin: 10px 40px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.box__button{
+    @include boton;
+    background-color: lightgray;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 10px 30px;
+}
+
+.box__form-sub{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
